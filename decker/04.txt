@@ -1,50 +1,112 @@
-from multiprocessing import Process
-from multiprocessing import current_process
-from multiprocessing import Value, Array
-N = 8
-def is_anybody_inside(critical, tid):
-    found = False
-    i = 0
-    while i<len(critical) and not found:
-        found = tid!=i and critical[i]==1
-        i += 1
-    return found
-
-def task(common, tid, critical, turn):
-    a = 0
-    for i in range(100):
-        print(f'{tid}-{i}: Non-critical Section')
-        a += 1
-        print(f'{tid}-{i}: End of non-critical Section')
-        critical[tid] = 1
-        while is_anybody_inside(critical, tid):
-            critical[tid] = 0
-            print(f'{tid}-{i}: Giving up')
-            while turn.value==tid:
-                pass
-            critical[tid] = 1
-        print(f'{tid}-{i}: Critical section')
-        v = common.value + 1
-        print(f'{tid}-{i}: Inside critical section')
-        common.value = v
-        print(f'{tid}-{i}: End of critical section')
-        critical[tid] = 0
-        turn.value = tid
-
-def main():
-    lp = []
-    common = Value('i', 0)
-    critical = Array('i', [0]*N)
-    turn = Value('i', 0)
-    for tid in range(N):
-        lp.append(Process(target=task, args=(common, tid, critical, turn)))
-    print (f"Valor inicial del contador {common.value}")
-    for p in lp:
-        p.start()
-    for p in lp:
-        p.join()
-    print (f"Valor final del contador {common.value}")
-    print ("fin")
-
-if __name__ == "__main__":
-    main()
+Process Process-1:
+Process Process-2:
+Process Process-4:
+Process Process-3:
+Process Process-5:
+Process Process-6:
+Process Process-7:
+Process Process-8:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
+    print(f'{tid}\u2212{i}: Non\u2212critical Section')
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+Valor inicial del contador 0
+Valor inicial del contador 0
+Valor inicial del contador 0
+Valor inicial del contador 0
+Valor inicial del contador 0
+Valor inicial del contador 0
+Valor inicial del contador 0
+Valor inicial del contador 0
+Valor final del contador 0
+fin
+Valor final del contador 0
+fin
+Valor final del contador 0
+fin
+Valor final del contador 0
+fin
+Valor final del contador 0
+fin
+Valor final del contador 0
+fin
+Valor final del contador 0
+fin
+Valor final del contador 0
+fin
