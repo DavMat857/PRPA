@@ -1,91 +1,1627 @@
-Process Process-1:
-Process Process-2:
-Process Process-4:
-Process Process-3:
-Process Process-5:
-Process Process-6:
-Process Process-7:
-Process Process-8:
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-Traceback (most recent call last):
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 315, in _bootstrap
-    self.run()
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\multiprocessing\process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-  File "C:\Users\azize\Programación\PRPA\decker\04.py", line 15, in task
-    print(f'{tid}\u2212{i}: Non\u2212critical Section')
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
-  File "C:\Users\azize\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2212' in position 1: character maps to <undefined>
+1-0: Non-critical Section
+1-0: End of non-critical Section
+1-1: Non-critical Section
+1-1: End of non-critical Section
+1-2: Non-critical Section
+1-2: End of non-critical Section
+1-3: Non-critical Section
+1-3: End of non-critical Section
+1-4: Non-critical Section
+1-4: End of non-critical Section
+1-5: Non-critical Section
+1-5: End of non-critical Section
+1-6: Non-critical Section
+1-6: End of non-critical Section
+1-7: Non-critical Section
+1-7: End of non-critical Section
+1-8: Non-critical Section
+1-8: End of non-critical Section
+1-9: Non-critical Section
+1-9: End of non-critical Section
+1-10: Non-critical Section
+1-10: End of non-critical Section
+1-11: Non-critical Section
+1-11: End of non-critical Section
+1-12: Non-critical Section
+1-12: End of non-critical Section
+1-13: Non-critical Section
+1-13: End of non-critical Section
+1-14: Non-critical Section
+1-14: End of non-critical Section
+1-15: Non-critical Section
+1-15: End of non-critical Section
+1-16: Non-critical Section
+1-16: End of non-critical Section
+1-17: Non-critical Section
+1-17: End of non-critical Section
+1-18: Non-critical Section
+1-18: End of non-critical Section
+1-19: Non-critical Section
+1-19: End of non-critical Section
+1-20: Non-critical Section
+1-20: End of non-critical Section
+1-21: Non-critical Section
+1-21: End of non-critical Section
+1-22: Non-critical Section
+1-22: End of non-critical Section
+1-23: Non-critical Section
+1-23: End of non-critical Section
+1-24: Non-critical Section
+1-24: End of non-critical Section
+1-25: Non-critical Section
+1-25: End of non-critical Section
+1-26: Non-critical Section
+1-26: End of non-critical Section
+1-27: Non-critical Section
+1-27: End of non-critical Section
+1-28: Non-critical Section
+1-28: End of non-critical Section
+1-29: Non-critical Section
+1-29: End of non-critical Section
+1-30: Non-critical Section
+1-30: End of non-critical Section
+1-31: Non-critical Section
+1-31: End of non-critical Section
+1-32: Non-critical Section
+1-32: End of non-critical Section
+1-33: Non-critical Section
+1-33: End of non-critical Section
+1-34: Non-critical Section
+1-34: End of non-critical Section
+1-35: Non-critical Section
+1-35: End of non-critical Section
+1-36: Non-critical Section
+1-36: End of non-critical Section
+1-37: Non-critical Section
+1-37: End of non-critical Section
+1-38: Non-critical Section
+1-38: End of non-critical Section
+1-39: Non-critical Section
+1-39: End of non-critical Section
+1-40: Non-critical Section
+1-40: End of non-critical Section
+1-41: Non-critical Section
+1-41: End of non-critical Section
+1-42: Non-critical Section
+1-42: End of non-critical Section
+1-43: Non-critical Section
+1-43: End of non-critical Section
+1-44: Non-critical Section
+1-44: End of non-critical Section
+1-45: Non-critical Section
+1-45: End of non-critical Section
+1-46: Non-critical Section
+1-46: End of non-critical Section
+1-47: Non-critical Section
+1-47: End of non-critical Section
+1-48: Non-critical Section
+1-48: End of non-critical Section
+1-49: Non-critical Section
+1-49: End of non-critical Section
+1-50: Non-critical Section
+1-50: End of non-critical Section
+1-51: Non-critical Section
+1-51: End of non-critical Section
+1-52: Non-critical Section
+1-52: End of non-critical Section
+1-53: Non-critical Section
+1-53: End of non-critical Section
+1-54: Non-critical Section
+1-54: End of non-critical Section
+1-55: Non-critical Section
+1-55: End of non-critical Section
+1-56: Non-critical Section
+1-56: End of non-critical Section
+1-57: Non-critical Section
+1-57: End of non-critical Section
+1-58: Non-critical Section
+1-58: End of non-critical Section
+1-59: Non-critical Section
+1-59: End of non-critical Section
+1-60: Non-critical Section
+1-60: End of non-critical Section
+1-61: Non-critical Section
+1-61: End of non-critical Section
+1-62: Non-critical Section
+1-62: End of non-critical Section
+1-63: Non-critical Section
+1-63: End of non-critical Section
+1-64: Non-critical Section
+1-64: End of non-critical Section
+1-65: Non-critical Section
+1-65: End of non-critical Section
+1-66: Non-critical Section
+1-66: End of non-critical Section
+1-67: Non-critical Section
+1-67: End of non-critical Section
+1-68: Non-critical Section
+1-68: End of non-critical Section
+1-69: Non-critical Section
+1-69: End of non-critical Section
+1-70: Non-critical Section
+1-70: End of non-critical Section
+1-71: Non-critical Section
+1-71: End of non-critical Section
+1-72: Non-critical Section
+1-72: End of non-critical Section
+1-73: Non-critical Section
+1-73: End of non-critical Section
+1-74: Non-critical Section
+1-74: End of non-critical Section
+1-75: Non-critical Section
+1-75: End of non-critical Section
+1-76: Non-critical Section
+1-76: End of non-critical Section
+1-77: Non-critical Section
+1-77: End of non-critical Section
+1-78: Non-critical Section
+1-78: End of non-critical Section
+1-79: Non-critical Section
+1-79: End of non-critical Section
+1-80: Non-critical Section
+1-80: End of non-critical Section
+1-81: Non-critical Section
+1-81: End of non-critical Section
+1-82: Non-critical Section
+1-82: End of non-critical Section
+1-83: Non-critical Section
+1-83: End of non-critical Section
+1-84: Non-critical Section
+1-84: End of non-critical Section
+1-85: Non-critical Section
+1-85: End of non-critical Section
+1-86: Non-critical Section
+1-86: End of non-critical Section
+1-87: Non-critical Section
+1-87: End of non-critical Section
+1-88: Non-critical Section
+1-88: End of non-critical Section
+1-89: Non-critical Section
+1-89: End of non-critical Section
+1-90: Non-critical Section
+1-90: End of non-critical Section
+1-91: Non-critical Section
+1-91: End of non-critical Section
+1-92: Non-critical Section
+1-92: End of non-critical Section
+1-93: Non-critical Section
+1-93: End of non-critical Section
+1-94: Non-critical Section
+1-94: End of non-critical Section
+1-95: Non-critical Section
+1-95: End of non-critical Section
+1-96: Non-critical Section
+1-96: End of non-critical Section
+1-97: Non-critical Section
+1-97: End of non-critical Section
+1-98: Non-critical Section
+1-98: End of non-critical Section
+1-99: Non-critical Section
+1-99: End of non-critical Section
+1-99: Critical section
+1-99: Inside critical section
+1-99: End of critical section
+0-0: Non-critical Section
+0-0: End of non-critical Section
+0-1: Non-critical Section
+0-1: End of non-critical Section
+0-2: Non-critical Section
+0-2: End of non-critical Section
+0-3: Non-critical Section
+0-3: End of non-critical Section
+0-4: Non-critical Section
+0-4: End of non-critical Section
+0-5: Non-critical Section
+0-5: End of non-critical Section
+0-6: Non-critical Section
+0-6: End of non-critical Section
+0-7: Non-critical Section
+0-7: End of non-critical Section
+0-8: Non-critical Section
+0-8: End of non-critical Section
+0-9: Non-critical Section
+0-9: End of non-critical Section
+0-10: Non-critical Section
+0-10: End of non-critical Section
+0-11: Non-critical Section
+0-11: End of non-critical Section
+0-12: Non-critical Section
+0-12: End of non-critical Section
+0-13: Non-critical Section
+0-13: End of non-critical Section
+0-14: Non-critical Section
+0-14: End of non-critical Section
+0-15: Non-critical Section
+0-15: End of non-critical Section
+0-16: Non-critical Section
+0-16: End of non-critical Section
+0-17: Non-critical Section
+0-17: End of non-critical Section
+0-18: Non-critical Section
+0-18: End of non-critical Section
+0-19: Non-critical Section
+0-19: End of non-critical Section
+0-20: Non-critical Section
+0-20: End of non-critical Section
+0-21: Non-critical Section
+0-21: End of non-critical Section
+0-22: Non-critical Section
+0-22: End of non-critical Section
+0-23: Non-critical Section
+0-23: End of non-critical Section
+0-24: Non-critical Section
+0-24: End of non-critical Section
+0-25: Non-critical Section
+0-25: End of non-critical Section
+0-26: Non-critical Section
+0-26: End of non-critical Section
+0-27: Non-critical Section
+0-27: End of non-critical Section
+0-28: Non-critical Section
+0-28: End of non-critical Section
+0-29: Non-critical Section
+0-29: End of non-critical Section
+0-30: Non-critical Section
+0-30: End of non-critical Section
+0-31: Non-critical Section
+0-31: End of non-critical Section
+0-32: Non-critical Section
+0-32: End of non-critical Section
+0-33: Non-critical Section
+0-33: End of non-critical Section
+0-34: Non-critical Section
+0-34: End of non-critical Section
+0-35: Non-critical Section
+0-35: End of non-critical Section
+0-36: Non-critical Section
+0-36: End of non-critical Section
+0-37: Non-critical Section
+0-37: End of non-critical Section
+0-38: Non-critical Section
+0-38: End of non-critical Section
+0-39: Non-critical Section
+0-39: End of non-critical Section
+0-40: Non-critical Section
+0-40: End of non-critical Section
+0-41: Non-critical Section
+0-41: End of non-critical Section
+0-42: Non-critical Section
+0-42: End of non-critical Section
+0-43: Non-critical Section
+0-43: End of non-critical Section
+0-44: Non-critical Section
+0-44: End of non-critical Section
+0-45: Non-critical Section
+0-45: End of non-critical Section
+0-46: Non-critical Section
+0-46: End of non-critical Section
+0-47: Non-critical Section
+0-47: End of non-critical Section
+0-48: Non-critical Section
+0-48: End of non-critical Section
+0-49: Non-critical Section
+0-49: End of non-critical Section
+0-50: Non-critical Section
+0-50: End of non-critical Section
+0-51: Non-critical Section
+0-51: End of non-critical Section
+0-52: Non-critical Section
+0-52: End of non-critical Section
+0-53: Non-critical Section
+0-53: End of non-critical Section
+0-54: Non-critical Section
+0-54: End of non-critical Section
+0-55: Non-critical Section
+0-55: End of non-critical Section
+0-56: Non-critical Section
+0-56: End of non-critical Section
+0-57: Non-critical Section
+0-57: End of non-critical Section
+0-58: Non-critical Section
+0-58: End of non-critical Section
+0-59: Non-critical Section
+0-59: End of non-critical Section
+0-60: Non-critical Section
+0-60: End of non-critical Section
+0-61: Non-critical Section
+0-61: End of non-critical Section
+0-62: Non-critical Section
+0-62: End of non-critical Section
+0-63: Non-critical Section
+0-63: End of non-critical Section
+0-64: Non-critical Section
+0-64: End of non-critical Section
+0-65: Non-critical Section
+0-65: End of non-critical Section
+0-66: Non-critical Section
+0-66: End of non-critical Section
+0-67: Non-critical Section
+0-67: End of non-critical Section
+0-68: Non-critical Section
+0-68: End of non-critical Section
+0-69: Non-critical Section
+0-69: End of non-critical Section
+0-70: Non-critical Section
+0-70: End of non-critical Section
+0-71: Non-critical Section
+0-71: End of non-critical Section
+0-72: Non-critical Section
+0-72: End of non-critical Section
+0-73: Non-critical Section
+0-73: End of non-critical Section
+0-74: Non-critical Section
+0-74: End of non-critical Section
+0-75: Non-critical Section
+0-75: End of non-critical Section
+0-76: Non-critical Section
+0-76: End of non-critical Section
+0-77: Non-critical Section
+0-77: End of non-critical Section
+0-78: Non-critical Section
+0-78: End of non-critical Section
+0-79: Non-critical Section
+0-79: End of non-critical Section
+0-80: Non-critical Section
+0-80: End of non-critical Section
+0-81: Non-critical Section
+0-81: End of non-critical Section
+0-82: Non-critical Section
+0-82: End of non-critical Section
+0-83: Non-critical Section
+0-83: End of non-critical Section
+0-84: Non-critical Section
+0-84: End of non-critical Section
+0-85: Non-critical Section
+0-85: End of non-critical Section
+0-86: Non-critical Section
+0-86: End of non-critical Section
+0-87: Non-critical Section
+0-87: End of non-critical Section
+0-88: Non-critical Section
+0-88: End of non-critical Section
+0-89: Non-critical Section
+0-89: End of non-critical Section
+0-90: Non-critical Section
+0-90: End of non-critical Section
+0-91: Non-critical Section
+0-91: End of non-critical Section
+0-92: Non-critical Section
+0-92: End of non-critical Section
+0-93: Non-critical Section
+0-93: End of non-critical Section
+0-94: Non-critical Section
+0-94: End of non-critical Section
+0-95: Non-critical Section
+0-95: End of non-critical Section
+0-96: Non-critical Section
+0-96: End of non-critical Section
+0-97: Non-critical Section
+0-97: End of non-critical Section
+0-98: Non-critical Section
+0-98: End of non-critical Section
+0-99: Non-critical Section
+0-99: End of non-critical Section
+0-99: Critical section
+0-99: Inside critical section
+0-99: End of critical section
+2-0: Non-critical Section
+2-0: End of non-critical Section
+2-1: Non-critical Section
+2-1: End of non-critical Section
+2-2: Non-critical Section
+2-2: End of non-critical Section
+2-3: Non-critical Section
+2-3: End of non-critical Section
+2-4: Non-critical Section
+2-4: End of non-critical Section
+2-5: Non-critical Section
+2-5: End of non-critical Section
+2-6: Non-critical Section
+2-6: End of non-critical Section
+2-7: Non-critical Section
+2-7: End of non-critical Section
+2-8: Non-critical Section
+2-8: End of non-critical Section
+2-9: Non-critical Section
+2-9: End of non-critical Section
+2-10: Non-critical Section
+2-10: End of non-critical Section
+2-11: Non-critical Section
+2-11: End of non-critical Section
+2-12: Non-critical Section
+2-12: End of non-critical Section
+2-13: Non-critical Section
+2-13: End of non-critical Section
+2-14: Non-critical Section
+2-14: End of non-critical Section
+2-15: Non-critical Section
+2-15: End of non-critical Section
+2-16: Non-critical Section
+2-16: End of non-critical Section
+2-17: Non-critical Section
+2-17: End of non-critical Section
+2-18: Non-critical Section
+2-18: End of non-critical Section
+2-19: Non-critical Section
+2-19: End of non-critical Section
+2-20: Non-critical Section
+2-20: End of non-critical Section
+2-21: Non-critical Section
+2-21: End of non-critical Section
+2-22: Non-critical Section
+2-22: End of non-critical Section
+2-23: Non-critical Section
+2-23: End of non-critical Section
+2-24: Non-critical Section
+2-24: End of non-critical Section
+2-25: Non-critical Section
+2-25: End of non-critical Section
+2-26: Non-critical Section
+2-26: End of non-critical Section
+2-27: Non-critical Section
+2-27: End of non-critical Section
+2-28: Non-critical Section
+2-28: End of non-critical Section
+2-29: Non-critical Section
+2-29: End of non-critical Section
+2-30: Non-critical Section
+2-30: End of non-critical Section
+2-31: Non-critical Section
+2-31: End of non-critical Section
+2-32: Non-critical Section
+2-32: End of non-critical Section
+2-33: Non-critical Section
+2-33: End of non-critical Section
+2-34: Non-critical Section
+2-34: End of non-critical Section
+2-35: Non-critical Section
+2-35: End of non-critical Section
+2-36: Non-critical Section
+2-36: End of non-critical Section
+2-37: Non-critical Section
+2-37: End of non-critical Section
+2-38: Non-critical Section
+2-38: End of non-critical Section
+2-39: Non-critical Section
+2-39: End of non-critical Section
+2-40: Non-critical Section
+2-40: End of non-critical Section
+2-41: Non-critical Section
+2-41: End of non-critical Section
+2-42: Non-critical Section
+2-42: End of non-critical Section
+2-43: Non-critical Section
+2-43: End of non-critical Section
+2-44: Non-critical Section
+2-44: End of non-critical Section
+2-45: Non-critical Section
+2-45: End of non-critical Section
+2-46: Non-critical Section
+2-46: End of non-critical Section
+2-47: Non-critical Section
+2-47: End of non-critical Section
+2-48: Non-critical Section
+2-48: End of non-critical Section
+2-49: Non-critical Section
+2-49: End of non-critical Section
+2-50: Non-critical Section
+2-50: End of non-critical Section
+2-51: Non-critical Section
+2-51: End of non-critical Section
+2-52: Non-critical Section
+2-52: End of non-critical Section
+2-53: Non-critical Section
+2-53: End of non-critical Section
+2-54: Non-critical Section
+2-54: End of non-critical Section
+2-55: Non-critical Section
+2-55: End of non-critical Section
+2-56: Non-critical Section
+2-56: End of non-critical Section
+2-57: Non-critical Section
+2-57: End of non-critical Section
+2-58: Non-critical Section
+2-58: End of non-critical Section
+2-59: Non-critical Section
+2-59: End of non-critical Section
+2-60: Non-critical Section
+2-60: End of non-critical Section
+2-61: Non-critical Section
+2-61: End of non-critical Section
+2-62: Non-critical Section
+2-62: End of non-critical Section
+2-63: Non-critical Section
+2-63: End of non-critical Section
+2-64: Non-critical Section
+2-64: End of non-critical Section
+2-65: Non-critical Section
+2-65: End of non-critical Section
+2-66: Non-critical Section
+2-66: End of non-critical Section
+2-67: Non-critical Section
+2-67: End of non-critical Section
+2-68: Non-critical Section
+2-68: End of non-critical Section
+2-69: Non-critical Section
+2-69: End of non-critical Section
+2-70: Non-critical Section
+2-70: End of non-critical Section
+2-71: Non-critical Section
+2-71: End of non-critical Section
+2-72: Non-critical Section
+2-72: End of non-critical Section
+2-73: Non-critical Section
+2-73: End of non-critical Section
+2-74: Non-critical Section
+2-74: End of non-critical Section
+2-75: Non-critical Section
+2-75: End of non-critical Section
+2-76: Non-critical Section
+2-76: End of non-critical Section
+2-77: Non-critical Section
+2-77: End of non-critical Section
+2-78: Non-critical Section
+2-78: End of non-critical Section
+2-79: Non-critical Section
+2-79: End of non-critical Section
+2-80: Non-critical Section
+2-80: End of non-critical Section
+2-81: Non-critical Section
+2-81: End of non-critical Section
+2-82: Non-critical Section
+2-82: End of non-critical Section
+2-83: Non-critical Section
+2-83: End of non-critical Section
+2-84: Non-critical Section
+2-84: End of non-critical Section
+2-85: Non-critical Section
+2-85: End of non-critical Section
+2-86: Non-critical Section
+2-86: End of non-critical Section
+2-87: Non-critical Section
+2-87: End of non-critical Section
+2-88: Non-critical Section
+2-88: End of non-critical Section
+2-89: Non-critical Section
+2-89: End of non-critical Section
+2-90: Non-critical Section
+2-90: End of non-critical Section
+2-91: Non-critical Section
+2-91: End of non-critical Section
+2-92: Non-critical Section
+2-92: End of non-critical Section
+2-93: Non-critical Section
+2-93: End of non-critical Section
+2-94: Non-critical Section
+2-94: End of non-critical Section
+2-95: Non-critical Section
+2-95: End of non-critical Section
+2-96: Non-critical Section
+2-96: End of non-critical Section
+2-97: Non-critical Section
+2-97: End of non-critical Section
+2-98: Non-critical Section
+2-98: End of non-critical Section
+2-99: Non-critical Section
+2-99: End of non-critical Section
+2-99: Critical section
+2-99: Inside critical section
+2-99: End of critical section
+3-0: Non-critical Section
+3-0: End of non-critical Section
+3-1: Non-critical Section
+3-1: End of non-critical Section
+3-2: Non-critical Section
+3-2: End of non-critical Section
+3-3: Non-critical Section
+3-3: End of non-critical Section
+3-4: Non-critical Section
+3-4: End of non-critical Section
+3-5: Non-critical Section
+3-5: End of non-critical Section
+3-6: Non-critical Section
+3-6: End of non-critical Section
+3-7: Non-critical Section
+3-7: End of non-critical Section
+3-8: Non-critical Section
+3-8: End of non-critical Section
+3-9: Non-critical Section
+3-9: End of non-critical Section
+3-10: Non-critical Section
+3-10: End of non-critical Section
+3-11: Non-critical Section
+3-11: End of non-critical Section
+3-12: Non-critical Section
+3-12: End of non-critical Section
+3-13: Non-critical Section
+3-13: End of non-critical Section
+3-14: Non-critical Section
+3-14: End of non-critical Section
+3-15: Non-critical Section
+3-15: End of non-critical Section
+3-16: Non-critical Section
+3-16: End of non-critical Section
+3-17: Non-critical Section
+3-17: End of non-critical Section
+3-18: Non-critical Section
+3-18: End of non-critical Section
+3-19: Non-critical Section
+3-19: End of non-critical Section
+3-20: Non-critical Section
+3-20: End of non-critical Section
+3-21: Non-critical Section
+3-21: End of non-critical Section
+3-22: Non-critical Section
+3-22: End of non-critical Section
+3-23: Non-critical Section
+3-23: End of non-critical Section
+3-24: Non-critical Section
+3-24: End of non-critical Section
+3-25: Non-critical Section
+3-25: End of non-critical Section
+3-26: Non-critical Section
+3-26: End of non-critical Section
+3-27: Non-critical Section
+3-27: End of non-critical Section
+3-28: Non-critical Section
+3-28: End of non-critical Section
+3-29: Non-critical Section
+3-29: End of non-critical Section
+3-30: Non-critical Section
+3-30: End of non-critical Section
+3-31: Non-critical Section
+3-31: End of non-critical Section
+3-32: Non-critical Section
+3-32: End of non-critical Section
+3-33: Non-critical Section
+3-33: End of non-critical Section
+3-34: Non-critical Section
+3-34: End of non-critical Section
+3-35: Non-critical Section
+3-35: End of non-critical Section
+3-36: Non-critical Section
+3-36: End of non-critical Section
+3-37: Non-critical Section
+3-37: End of non-critical Section
+3-38: Non-critical Section
+3-38: End of non-critical Section
+3-39: Non-critical Section
+3-39: End of non-critical Section
+3-40: Non-critical Section
+3-40: End of non-critical Section
+3-41: Non-critical Section
+3-41: End of non-critical Section
+3-42: Non-critical Section
+3-42: End of non-critical Section
+3-43: Non-critical Section
+3-43: End of non-critical Section
+3-44: Non-critical Section
+3-44: End of non-critical Section
+3-45: Non-critical Section
+3-45: End of non-critical Section
+3-46: Non-critical Section
+3-46: End of non-critical Section
+3-47: Non-critical Section
+3-47: End of non-critical Section
+3-48: Non-critical Section
+3-48: End of non-critical Section
+3-49: Non-critical Section
+3-49: End of non-critical Section
+3-50: Non-critical Section
+3-50: End of non-critical Section
+3-51: Non-critical Section
+3-51: End of non-critical Section
+3-52: Non-critical Section
+3-52: End of non-critical Section
+3-53: Non-critical Section
+3-53: End of non-critical Section
+3-54: Non-critical Section
+3-54: End of non-critical Section
+3-55: Non-critical Section
+3-55: End of non-critical Section
+3-56: Non-critical Section
+3-56: End of non-critical Section
+3-57: Non-critical Section
+3-57: End of non-critical Section
+3-58: Non-critical Section
+3-58: End of non-critical Section
+3-59: Non-critical Section
+3-59: End of non-critical Section
+3-60: Non-critical Section
+3-60: End of non-critical Section
+3-61: Non-critical Section
+3-61: End of non-critical Section
+3-62: Non-critical Section
+3-62: End of non-critical Section
+3-63: Non-critical Section
+3-63: End of non-critical Section
+3-64: Non-critical Section
+3-64: End of non-critical Section
+3-65: Non-critical Section
+3-65: End of non-critical Section
+3-66: Non-critical Section
+3-66: End of non-critical Section
+3-67: Non-critical Section
+3-67: End of non-critical Section
+3-68: Non-critical Section
+3-68: End of non-critical Section
+3-69: Non-critical Section
+3-69: End of non-critical Section
+3-70: Non-critical Section
+3-70: End of non-critical Section
+3-71: Non-critical Section
+3-71: End of non-critical Section
+3-72: Non-critical Section
+3-72: End of non-critical Section
+3-73: Non-critical Section
+3-73: End of non-critical Section
+3-74: Non-critical Section
+3-74: End of non-critical Section
+3-75: Non-critical Section
+3-75: End of non-critical Section
+3-76: Non-critical Section
+3-76: End of non-critical Section
+3-77: Non-critical Section
+3-77: End of non-critical Section
+3-78: Non-critical Section
+3-78: End of non-critical Section
+3-79: Non-critical Section
+3-79: End of non-critical Section
+3-80: Non-critical Section
+3-80: End of non-critical Section
+3-81: Non-critical Section
+3-81: End of non-critical Section
+3-82: Non-critical Section
+3-82: End of non-critical Section
+3-83: Non-critical Section
+3-83: End of non-critical Section
+3-84: Non-critical Section
+3-84: End of non-critical Section
+3-85: Non-critical Section
+3-85: End of non-critical Section
+3-86: Non-critical Section
+3-86: End of non-critical Section
+3-87: Non-critical Section
+3-87: End of non-critical Section
+3-88: Non-critical Section
+3-88: End of non-critical Section
+3-89: Non-critical Section
+3-89: End of non-critical Section
+3-90: Non-critical Section
+3-90: End of non-critical Section
+3-91: Non-critical Section
+3-91: End of non-critical Section
+3-92: Non-critical Section
+3-92: End of non-critical Section
+3-93: Non-critical Section
+3-93: End of non-critical Section
+3-94: Non-critical Section
+3-94: End of non-critical Section
+3-95: Non-critical Section
+3-95: End of non-critical Section
+3-96: Non-critical Section
+3-96: End of non-critical Section
+3-97: Non-critical Section
+3-97: End of non-critical Section
+3-98: Non-critical Section
+3-98: End of non-critical Section
+3-99: Non-critical Section
+3-99: End of non-critical Section
+3-99: Critical section
+3-99: Inside critical section
+3-99: End of critical section
+4-0: Non-critical Section
+4-0: End of non-critical Section
+4-1: Non-critical Section
+4-1: End of non-critical Section
+4-2: Non-critical Section
+4-2: End of non-critical Section
+4-3: Non-critical Section
+4-3: End of non-critical Section
+4-4: Non-critical Section
+4-4: End of non-critical Section
+4-5: Non-critical Section
+4-5: End of non-critical Section
+4-6: Non-critical Section
+4-6: End of non-critical Section
+4-7: Non-critical Section
+4-7: End of non-critical Section
+4-8: Non-critical Section
+4-8: End of non-critical Section
+4-9: Non-critical Section
+4-9: End of non-critical Section
+4-10: Non-critical Section
+4-10: End of non-critical Section
+4-11: Non-critical Section
+4-11: End of non-critical Section
+4-12: Non-critical Section
+4-12: End of non-critical Section
+4-13: Non-critical Section
+4-13: End of non-critical Section
+4-14: Non-critical Section
+4-14: End of non-critical Section
+4-15: Non-critical Section
+4-15: End of non-critical Section
+4-16: Non-critical Section
+4-16: End of non-critical Section
+4-17: Non-critical Section
+4-17: End of non-critical Section
+4-18: Non-critical Section
+4-18: End of non-critical Section
+4-19: Non-critical Section
+4-19: End of non-critical Section
+4-20: Non-critical Section
+4-20: End of non-critical Section
+4-21: Non-critical Section
+4-21: End of non-critical Section
+4-22: Non-critical Section
+4-22: End of non-critical Section
+4-23: Non-critical Section
+4-23: End of non-critical Section
+4-24: Non-critical Section
+4-24: End of non-critical Section
+4-25: Non-critical Section
+4-25: End of non-critical Section
+4-26: Non-critical Section
+4-26: End of non-critical Section
+4-27: Non-critical Section
+4-27: End of non-critical Section
+4-28: Non-critical Section
+4-28: End of non-critical Section
+4-29: Non-critical Section
+4-29: End of non-critical Section
+4-30: Non-critical Section
+4-30: End of non-critical Section
+4-31: Non-critical Section
+4-31: End of non-critical Section
+4-32: Non-critical Section
+4-32: End of non-critical Section
+4-33: Non-critical Section
+4-33: End of non-critical Section
+4-34: Non-critical Section
+4-34: End of non-critical Section
+4-35: Non-critical Section
+4-35: End of non-critical Section
+4-36: Non-critical Section
+4-36: End of non-critical Section
+4-37: Non-critical Section
+4-37: End of non-critical Section
+4-38: Non-critical Section
+4-38: End of non-critical Section
+4-39: Non-critical Section
+4-39: End of non-critical Section
+4-40: Non-critical Section
+4-40: End of non-critical Section
+4-41: Non-critical Section
+4-41: End of non-critical Section
+4-42: Non-critical Section
+4-42: End of non-critical Section
+4-43: Non-critical Section
+4-43: End of non-critical Section
+4-44: Non-critical Section
+4-44: End of non-critical Section
+4-45: Non-critical Section
+4-45: End of non-critical Section
+4-46: Non-critical Section
+4-46: End of non-critical Section
+4-47: Non-critical Section
+4-47: End of non-critical Section
+4-48: Non-critical Section
+4-48: End of non-critical Section
+4-49: Non-critical Section
+4-49: End of non-critical Section
+4-50: Non-critical Section
+4-50: End of non-critical Section
+4-51: Non-critical Section
+4-51: End of non-critical Section
+4-52: Non-critical Section
+4-52: End of non-critical Section
+4-53: Non-critical Section
+4-53: End of non-critical Section
+4-54: Non-critical Section
+4-54: End of non-critical Section
+4-55: Non-critical Section
+4-55: End of non-critical Section
+4-56: Non-critical Section
+4-56: End of non-critical Section
+4-57: Non-critical Section
+4-57: End of non-critical Section
+4-58: Non-critical Section
+4-58: End of non-critical Section
+4-59: Non-critical Section
+4-59: End of non-critical Section
+4-60: Non-critical Section
+4-60: End of non-critical Section
+4-61: Non-critical Section
+4-61: End of non-critical Section
+4-62: Non-critical Section
+4-62: End of non-critical Section
+4-63: Non-critical Section
+4-63: End of non-critical Section
+4-64: Non-critical Section
+4-64: End of non-critical Section
+4-65: Non-critical Section
+4-65: End of non-critical Section
+4-66: Non-critical Section
+4-66: End of non-critical Section
+4-67: Non-critical Section
+4-67: End of non-critical Section
+4-68: Non-critical Section
+4-68: End of non-critical Section
+4-69: Non-critical Section
+4-69: End of non-critical Section
+4-70: Non-critical Section
+4-70: End of non-critical Section
+4-71: Non-critical Section
+4-71: End of non-critical Section
+4-72: Non-critical Section
+4-72: End of non-critical Section
+4-73: Non-critical Section
+4-73: End of non-critical Section
+4-74: Non-critical Section
+4-74: End of non-critical Section
+4-75: Non-critical Section
+4-75: End of non-critical Section
+4-76: Non-critical Section
+4-76: End of non-critical Section
+4-77: Non-critical Section
+4-77: End of non-critical Section
+4-78: Non-critical Section
+4-78: End of non-critical Section
+4-79: Non-critical Section
+4-79: End of non-critical Section
+4-80: Non-critical Section
+4-80: End of non-critical Section
+4-81: Non-critical Section
+4-81: End of non-critical Section
+4-82: Non-critical Section
+4-82: End of non-critical Section
+4-83: Non-critical Section
+4-83: End of non-critical Section
+4-84: Non-critical Section
+4-84: End of non-critical Section
+4-85: Non-critical Section
+4-85: End of non-critical Section
+4-86: Non-critical Section
+4-86: End of non-critical Section
+4-87: Non-critical Section
+4-87: End of non-critical Section
+4-88: Non-critical Section
+4-88: End of non-critical Section
+4-89: Non-critical Section
+4-89: End of non-critical Section
+4-90: Non-critical Section
+4-90: End of non-critical Section
+4-91: Non-critical Section
+4-91: End of non-critical Section
+4-92: Non-critical Section
+4-92: End of non-critical Section
+4-93: Non-critical Section
+4-93: End of non-critical Section
+4-94: Non-critical Section
+4-94: End of non-critical Section
+4-95: Non-critical Section
+4-95: End of non-critical Section
+4-96: Non-critical Section
+4-96: End of non-critical Section
+4-97: Non-critical Section
+4-97: End of non-critical Section
+4-98: Non-critical Section
+4-98: End of non-critical Section
+4-99: Non-critical Section
+4-99: End of non-critical Section
+4-99: Critical section
+4-99: Inside critical section
+4-99: End of critical section
+5-0: Non-critical Section
+5-0: End of non-critical Section
+5-1: Non-critical Section
+5-1: End of non-critical Section
+5-2: Non-critical Section
+5-2: End of non-critical Section
+5-3: Non-critical Section
+5-3: End of non-critical Section
+5-4: Non-critical Section
+5-4: End of non-critical Section
+5-5: Non-critical Section
+5-5: End of non-critical Section
+5-6: Non-critical Section
+5-6: End of non-critical Section
+5-7: Non-critical Section
+5-7: End of non-critical Section
+5-8: Non-critical Section
+5-8: End of non-critical Section
+5-9: Non-critical Section
+5-9: End of non-critical Section
+5-10: Non-critical Section
+5-10: End of non-critical Section
+5-11: Non-critical Section
+5-11: End of non-critical Section
+5-12: Non-critical Section
+5-12: End of non-critical Section
+5-13: Non-critical Section
+5-13: End of non-critical Section
+5-14: Non-critical Section
+5-14: End of non-critical Section
+5-15: Non-critical Section
+5-15: End of non-critical Section
+5-16: Non-critical Section
+5-16: End of non-critical Section
+5-17: Non-critical Section
+5-17: End of non-critical Section
+5-18: Non-critical Section
+5-18: End of non-critical Section
+5-19: Non-critical Section
+5-19: End of non-critical Section
+5-20: Non-critical Section
+5-20: End of non-critical Section
+5-21: Non-critical Section
+5-21: End of non-critical Section
+5-22: Non-critical Section
+5-22: End of non-critical Section
+5-23: Non-critical Section
+5-23: End of non-critical Section
+5-24: Non-critical Section
+5-24: End of non-critical Section
+5-25: Non-critical Section
+5-25: End of non-critical Section
+5-26: Non-critical Section
+5-26: End of non-critical Section
+5-27: Non-critical Section
+5-27: End of non-critical Section
+5-28: Non-critical Section
+5-28: End of non-critical Section
+5-29: Non-critical Section
+5-29: End of non-critical Section
+5-30: Non-critical Section
+5-30: End of non-critical Section
+5-31: Non-critical Section
+5-31: End of non-critical Section
+5-32: Non-critical Section
+5-32: End of non-critical Section
+5-33: Non-critical Section
+5-33: End of non-critical Section
+5-34: Non-critical Section
+5-34: End of non-critical Section
+5-35: Non-critical Section
+5-35: End of non-critical Section
+5-36: Non-critical Section
+5-36: End of non-critical Section
+5-37: Non-critical Section
+5-37: End of non-critical Section
+5-38: Non-critical Section
+5-38: End of non-critical Section
+5-39: Non-critical Section
+5-39: End of non-critical Section
+5-40: Non-critical Section
+5-40: End of non-critical Section
+5-41: Non-critical Section
+5-41: End of non-critical Section
+5-42: Non-critical Section
+5-42: End of non-critical Section
+5-43: Non-critical Section
+5-43: End of non-critical Section
+5-44: Non-critical Section
+5-44: End of non-critical Section
+5-45: Non-critical Section
+5-45: End of non-critical Section
+5-46: Non-critical Section
+5-46: End of non-critical Section
+5-47: Non-critical Section
+5-47: End of non-critical Section
+5-48: Non-critical Section
+5-48: End of non-critical Section
+5-49: Non-critical Section
+5-49: End of non-critical Section
+5-50: Non-critical Section
+5-50: End of non-critical Section
+5-51: Non-critical Section
+5-51: End of non-critical Section
+5-52: Non-critical Section
+5-52: End of non-critical Section
+5-53: Non-critical Section
+5-53: End of non-critical Section
+5-54: Non-critical Section
+5-54: End of non-critical Section
+5-55: Non-critical Section
+5-55: End of non-critical Section
+5-56: Non-critical Section
+5-56: End of non-critical Section
+5-57: Non-critical Section
+5-57: End of non-critical Section
+5-58: Non-critical Section
+5-58: End of non-critical Section
+5-59: Non-critical Section
+5-59: End of non-critical Section
+5-60: Non-critical Section
+5-60: End of non-critical Section
+5-61: Non-critical Section
+5-61: End of non-critical Section
+5-62: Non-critical Section
+5-62: End of non-critical Section
+5-63: Non-critical Section
+5-63: End of non-critical Section
+5-64: Non-critical Section
+5-64: End of non-critical Section
+5-65: Non-critical Section
+5-65: End of non-critical Section
+5-66: Non-critical Section
+5-66: End of non-critical Section
+5-67: Non-critical Section
+5-67: End of non-critical Section
+5-68: Non-critical Section
+5-68: End of non-critical Section
+5-69: Non-critical Section
+5-69: End of non-critical Section
+5-70: Non-critical Section
+5-70: End of non-critical Section
+5-71: Non-critical Section
+5-71: End of non-critical Section
+5-72: Non-critical Section
+5-72: End of non-critical Section
+5-73: Non-critical Section
+5-73: End of non-critical Section
+5-74: Non-critical Section
+5-74: End of non-critical Section
+5-75: Non-critical Section
+5-75: End of non-critical Section
+5-76: Non-critical Section
+5-76: End of non-critical Section
+5-77: Non-critical Section
+5-77: End of non-critical Section
+5-78: Non-critical Section
+5-78: End of non-critical Section
+5-79: Non-critical Section
+5-79: End of non-critical Section
+5-80: Non-critical Section
+5-80: End of non-critical Section
+5-81: Non-critical Section
+5-81: End of non-critical Section
+5-82: Non-critical Section
+5-82: End of non-critical Section
+5-83: Non-critical Section
+5-83: End of non-critical Section
+5-84: Non-critical Section
+5-84: End of non-critical Section
+5-85: Non-critical Section
+5-85: End of non-critical Section
+5-86: Non-critical Section
+5-86: End of non-critical Section
+5-87: Non-critical Section
+5-87: End of non-critical Section
+5-88: Non-critical Section
+5-88: End of non-critical Section
+5-89: Non-critical Section
+5-89: End of non-critical Section
+5-90: Non-critical Section
+5-90: End of non-critical Section
+5-91: Non-critical Section
+5-91: End of non-critical Section
+5-92: Non-critical Section
+5-92: End of non-critical Section
+5-93: Non-critical Section
+5-93: End of non-critical Section
+5-94: Non-critical Section
+5-94: End of non-critical Section
+5-95: Non-critical Section
+5-95: End of non-critical Section
+5-96: Non-critical Section
+5-96: End of non-critical Section
+5-97: Non-critical Section
+5-97: End of non-critical Section
+5-98: Non-critical Section
+5-98: End of non-critical Section
+5-99: Non-critical Section
+5-99: End of non-critical Section
+5-99: Critical section
+5-99: Inside critical section
+5-99: End of critical section
+6-0: Non-critical Section
+6-0: End of non-critical Section
+6-1: Non-critical Section
+6-1: End of non-critical Section
+6-2: Non-critical Section
+6-2: End of non-critical Section
+6-3: Non-critical Section
+6-3: End of non-critical Section
+6-4: Non-critical Section
+6-4: End of non-critical Section
+6-5: Non-critical Section
+6-5: End of non-critical Section
+6-6: Non-critical Section
+6-6: End of non-critical Section
+6-7: Non-critical Section
+6-7: End of non-critical Section
+6-8: Non-critical Section
+6-8: End of non-critical Section
+6-9: Non-critical Section
+6-9: End of non-critical Section
+6-10: Non-critical Section
+6-10: End of non-critical Section
+6-11: Non-critical Section
+6-11: End of non-critical Section
+6-12: Non-critical Section
+6-12: End of non-critical Section
+6-13: Non-critical Section
+6-13: End of non-critical Section
+6-14: Non-critical Section
+6-14: End of non-critical Section
+6-15: Non-critical Section
+6-15: End of non-critical Section
+6-16: Non-critical Section
+6-16: End of non-critical Section
+6-17: Non-critical Section
+6-17: End of non-critical Section
+6-18: Non-critical Section
+6-18: End of non-critical Section
+6-19: Non-critical Section
+6-19: End of non-critical Section
+6-20: Non-critical Section
+6-20: End of non-critical Section
+6-21: Non-critical Section
+6-21: End of non-critical Section
+6-22: Non-critical Section
+6-22: End of non-critical Section
+6-23: Non-critical Section
+6-23: End of non-critical Section
+6-24: Non-critical Section
+6-24: End of non-critical Section
+6-25: Non-critical Section
+6-25: End of non-critical Section
+6-26: Non-critical Section
+6-26: End of non-critical Section
+6-27: Non-critical Section
+6-27: End of non-critical Section
+6-28: Non-critical Section
+6-28: End of non-critical Section
+6-29: Non-critical Section
+6-29: End of non-critical Section
+6-30: Non-critical Section
+6-30: End of non-critical Section
+6-31: Non-critical Section
+6-31: End of non-critical Section
+6-32: Non-critical Section
+6-32: End of non-critical Section
+6-33: Non-critical Section
+6-33: End of non-critical Section
+6-34: Non-critical Section
+6-34: End of non-critical Section
+6-35: Non-critical Section
+6-35: End of non-critical Section
+6-36: Non-critical Section
+6-36: End of non-critical Section
+6-37: Non-critical Section
+6-37: End of non-critical Section
+6-38: Non-critical Section
+6-38: End of non-critical Section
+6-39: Non-critical Section
+6-39: End of non-critical Section
+6-40: Non-critical Section
+6-40: End of non-critical Section
+6-41: Non-critical Section
+6-41: End of non-critical Section
+6-42: Non-critical Section
+6-42: End of non-critical Section
+6-43: Non-critical Section
+6-43: End of non-critical Section
+6-44: Non-critical Section
+6-44: End of non-critical Section
+6-45: Non-critical Section
+6-45: End of non-critical Section
+6-46: Non-critical Section
+6-46: End of non-critical Section
+6-47: Non-critical Section
+6-47: End of non-critical Section
+6-48: Non-critical Section
+6-48: End of non-critical Section
+6-49: Non-critical Section
+6-49: End of non-critical Section
+6-50: Non-critical Section
+6-50: End of non-critical Section
+6-51: Non-critical Section
+6-51: End of non-critical Section
+6-52: Non-critical Section
+6-52: End of non-critical Section
+6-53: Non-critical Section
+6-53: End of non-critical Section
+6-54: Non-critical Section
+6-54: End of non-critical Section
+6-55: Non-critical Section
+6-55: End of non-critical Section
+6-56: Non-critical Section
+6-56: End of non-critical Section
+6-57: Non-critical Section
+6-57: End of non-critical Section
+6-58: Non-critical Section
+6-58: End of non-critical Section
+6-59: Non-critical Section
+6-59: End of non-critical Section
+6-60: Non-critical Section
+6-60: End of non-critical Section
+6-61: Non-critical Section
+6-61: End of non-critical Section
+6-62: Non-critical Section
+6-62: End of non-critical Section
+6-63: Non-critical Section
+6-63: End of non-critical Section
+6-64: Non-critical Section
+6-64: End of non-critical Section
+6-65: Non-critical Section
+6-65: End of non-critical Section
+6-66: Non-critical Section
+6-66: End of non-critical Section
+6-67: Non-critical Section
+6-67: End of non-critical Section
+6-68: Non-critical Section
+6-68: End of non-critical Section
+6-69: Non-critical Section
+6-69: End of non-critical Section
+6-70: Non-critical Section
+6-70: End of non-critical Section
+6-71: Non-critical Section
+6-71: End of non-critical Section
+6-72: Non-critical Section
+6-72: End of non-critical Section
+6-73: Non-critical Section
+6-73: End of non-critical Section
+6-74: Non-critical Section
+6-74: End of non-critical Section
+6-75: Non-critical Section
+6-75: End of non-critical Section
+6-76: Non-critical Section
+6-76: End of non-critical Section
+6-77: Non-critical Section
+6-77: End of non-critical Section
+6-78: Non-critical Section
+6-78: End of non-critical Section
+6-79: Non-critical Section
+6-79: End of non-critical Section
+6-80: Non-critical Section
+6-80: End of non-critical Section
+6-81: Non-critical Section
+6-81: End of non-critical Section
+6-82: Non-critical Section
+6-82: End of non-critical Section
+6-83: Non-critical Section
+6-83: End of non-critical Section
+6-84: Non-critical Section
+6-84: End of non-critical Section
+6-85: Non-critical Section
+6-85: End of non-critical Section
+6-86: Non-critical Section
+6-86: End of non-critical Section
+6-87: Non-critical Section
+6-87: End of non-critical Section
+6-88: Non-critical Section
+6-88: End of non-critical Section
+6-89: Non-critical Section
+6-89: End of non-critical Section
+6-90: Non-critical Section
+6-90: End of non-critical Section
+6-91: Non-critical Section
+6-91: End of non-critical Section
+6-92: Non-critical Section
+6-92: End of non-critical Section
+6-93: Non-critical Section
+6-93: End of non-critical Section
+6-94: Non-critical Section
+6-94: End of non-critical Section
+6-95: Non-critical Section
+6-95: End of non-critical Section
+6-96: Non-critical Section
+6-96: End of non-critical Section
+6-97: Non-critical Section
+6-97: End of non-critical Section
+6-98: Non-critical Section
+6-98: End of non-critical Section
+6-99: Non-critical Section
+6-99: End of non-critical Section
+6-99: Critical section
+6-99: Inside critical section
+6-99: End of critical section
+7-0: Non-critical Section
+7-0: End of non-critical Section
+7-1: Non-critical Section
+7-1: End of non-critical Section
+7-2: Non-critical Section
+7-2: End of non-critical Section
+7-3: Non-critical Section
+7-3: End of non-critical Section
+7-4: Non-critical Section
+7-4: End of non-critical Section
+7-5: Non-critical Section
+7-5: End of non-critical Section
+7-6: Non-critical Section
+7-6: End of non-critical Section
+7-7: Non-critical Section
+7-7: End of non-critical Section
+7-8: Non-critical Section
+7-8: End of non-critical Section
+7-9: Non-critical Section
+7-9: End of non-critical Section
+7-10: Non-critical Section
+7-10: End of non-critical Section
+7-11: Non-critical Section
+7-11: End of non-critical Section
+7-12: Non-critical Section
+7-12: End of non-critical Section
+7-13: Non-critical Section
+7-13: End of non-critical Section
+7-14: Non-critical Section
+7-14: End of non-critical Section
+7-15: Non-critical Section
+7-15: End of non-critical Section
+7-16: Non-critical Section
+7-16: End of non-critical Section
+7-17: Non-critical Section
+7-17: End of non-critical Section
+7-18: Non-critical Section
+7-18: End of non-critical Section
+7-19: Non-critical Section
+7-19: End of non-critical Section
+7-20: Non-critical Section
+7-20: End of non-critical Section
+7-21: Non-critical Section
+7-21: End of non-critical Section
+7-22: Non-critical Section
+7-22: End of non-critical Section
+7-23: Non-critical Section
+7-23: End of non-critical Section
+7-24: Non-critical Section
+7-24: End of non-critical Section
+7-25: Non-critical Section
+7-25: End of non-critical Section
+7-26: Non-critical Section
+7-26: End of non-critical Section
+7-27: Non-critical Section
+7-27: End of non-critical Section
+7-28: Non-critical Section
+7-28: End of non-critical Section
+7-29: Non-critical Section
+7-29: End of non-critical Section
+7-30: Non-critical Section
+7-30: End of non-critical Section
+7-31: Non-critical Section
+7-31: End of non-critical Section
+7-32: Non-critical Section
+7-32: End of non-critical Section
+7-33: Non-critical Section
+7-33: End of non-critical Section
+7-34: Non-critical Section
+7-34: End of non-critical Section
+7-35: Non-critical Section
+7-35: End of non-critical Section
+7-36: Non-critical Section
+7-36: End of non-critical Section
+7-37: Non-critical Section
+7-37: End of non-critical Section
+7-38: Non-critical Section
+7-38: End of non-critical Section
+7-39: Non-critical Section
+7-39: End of non-critical Section
+7-40: Non-critical Section
+7-40: End of non-critical Section
+7-41: Non-critical Section
+7-41: End of non-critical Section
+7-42: Non-critical Section
+7-42: End of non-critical Section
+7-43: Non-critical Section
+7-43: End of non-critical Section
+7-44: Non-critical Section
+7-44: End of non-critical Section
+7-45: Non-critical Section
+7-45: End of non-critical Section
+7-46: Non-critical Section
+7-46: End of non-critical Section
+7-47: Non-critical Section
+7-47: End of non-critical Section
+7-48: Non-critical Section
+7-48: End of non-critical Section
+7-49: Non-critical Section
+7-49: End of non-critical Section
+7-50: Non-critical Section
+7-50: End of non-critical Section
+7-51: Non-critical Section
+7-51: End of non-critical Section
+7-52: Non-critical Section
+7-52: End of non-critical Section
+7-53: Non-critical Section
+7-53: End of non-critical Section
+7-54: Non-critical Section
+7-54: End of non-critical Section
+7-55: Non-critical Section
+7-55: End of non-critical Section
+7-56: Non-critical Section
+7-56: End of non-critical Section
+7-57: Non-critical Section
+7-57: End of non-critical Section
+7-58: Non-critical Section
+7-58: End of non-critical Section
+7-59: Non-critical Section
+7-59: End of non-critical Section
+7-60: Non-critical Section
+7-60: End of non-critical Section
+7-61: Non-critical Section
+7-61: End of non-critical Section
+7-62: Non-critical Section
+7-62: End of non-critical Section
+7-63: Non-critical Section
+7-63: End of non-critical Section
+7-64: Non-critical Section
+7-64: End of non-critical Section
+7-65: Non-critical Section
+7-65: End of non-critical Section
+7-66: Non-critical Section
+7-66: End of non-critical Section
+7-67: Non-critical Section
+7-67: End of non-critical Section
+7-68: Non-critical Section
+7-68: End of non-critical Section
+7-69: Non-critical Section
+7-69: End of non-critical Section
+7-70: Non-critical Section
+7-70: End of non-critical Section
+7-71: Non-critical Section
+7-71: End of non-critical Section
+7-72: Non-critical Section
+7-72: End of non-critical Section
+7-73: Non-critical Section
+7-73: End of non-critical Section
+7-74: Non-critical Section
+7-74: End of non-critical Section
+7-75: Non-critical Section
+7-75: End of non-critical Section
+7-76: Non-critical Section
+7-76: End of non-critical Section
+7-77: Non-critical Section
+7-77: End of non-critical Section
+7-78: Non-critical Section
+7-78: End of non-critical Section
+7-79: Non-critical Section
+7-79: End of non-critical Section
+7-80: Non-critical Section
+7-80: End of non-critical Section
+7-81: Non-critical Section
+7-81: End of non-critical Section
+7-82: Non-critical Section
+7-82: End of non-critical Section
+7-83: Non-critical Section
+7-83: End of non-critical Section
+7-84: Non-critical Section
+7-84: End of non-critical Section
+7-85: Non-critical Section
+7-85: End of non-critical Section
+7-86: Non-critical Section
+7-86: End of non-critical Section
+7-87: Non-critical Section
+7-87: End of non-critical Section
+7-88: Non-critical Section
+7-88: End of non-critical Section
+7-89: Non-critical Section
+7-89: End of non-critical Section
+7-90: Non-critical Section
+7-90: End of non-critical Section
+7-91: Non-critical Section
+7-91: End of non-critical Section
+7-92: Non-critical Section
+7-92: End of non-critical Section
+7-93: Non-critical Section
+7-93: End of non-critical Section
+7-94: Non-critical Section
+7-94: End of non-critical Section
+7-95: Non-critical Section
+7-95: End of non-critical Section
+7-96: Non-critical Section
+7-96: End of non-critical Section
+7-97: Non-critical Section
+7-97: End of non-critical Section
+7-98: Non-critical Section
+7-98: End of non-critical Section
+7-99: Non-critical Section
+7-99: End of non-critical Section
+7-99: Critical section
+7-99: Inside critical section
+7-99: End of critical section
 Valor inicial del contador 0
 Valor inicial del contador 0
 Valor inicial del contador 0
@@ -94,19 +1630,19 @@ Valor inicial del contador 0
 Valor inicial del contador 0
 Valor inicial del contador 0
 Valor inicial del contador 0
-Valor final del contador 0
+Valor final del contador 4
 fin
-Valor final del contador 0
+Valor final del contador 4
 fin
-Valor final del contador 0
+Valor final del contador 5
 fin
-Valor final del contador 0
+Valor final del contador 8
 fin
-Valor final del contador 0
+Valor final del contador 8
 fin
-Valor final del contador 0
+Valor final del contador 8
 fin
-Valor final del contador 0
+Valor final del contador 8
 fin
-Valor final del contador 0
+Valor final del contador 8
 fin

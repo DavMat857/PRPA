@@ -12,21 +12,21 @@ def is_anybody_inside(critical, tid):
 def task(common, tid, critical, turn):
  a = 0
  for i in range(100):
-    print(f'{tid}−{i}: Non−critical Section')
+    print(f'{tid}-{i}: Non-critical Section')
     a += 1
-    print(f'{tid}−{i}: End of non−critical Section')
+    print(f'{tid}-{i}: End of non-critical Section')
     critical[tid] = 1
  while is_anybody_inside(critical, tid):
     critical[tid] = 0
-    print(f'{tid}−{i}: Giving up')
+    print(f'{tid}-{i}: Giving up')
  while turn.value==tid:
     pass
  critical[tid] = 1
- print(f'{tid}−{i}: Critical section')
+ print(f'{tid}-{i}: Critical section')
  v = common.value + 1
- print(f'{tid}−{i}: Inside critical section')
+ print(f'{tid}-{i}: Inside critical section')
  common.value = v
- print(f'{tid}−{i}: End of critical section')
+ print(f'{tid}-{i}: End of critical section')
  critical[tid] = 0
  turn.value = tid
 def main():
