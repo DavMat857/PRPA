@@ -20,7 +20,7 @@ def task (common, tid, critical):
         print(f'{tid}-{i}: End of non-critical Section')
         critical[tid] = 1
         while is_anybody_inside(critical, tid):
-            critical[tid] = 1
+            critical[tid] = 0
             print(f'{tid}-{i}: Giving up')
             critical[tid] = 1
         print(f'{tid}-{i}: Critical section')
