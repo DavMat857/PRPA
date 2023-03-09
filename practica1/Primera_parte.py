@@ -7,7 +7,7 @@ from time import sleep
 import random
 
 N = 3 # Cantidad de números que quiero que genere cada proceso
-NPROD = 5
+NPROD = 5 # Cantidad de procesos
 
 def delay(factor = 3): #Introduce un factor de retraso aleatorio
     sleep(random.random()/factor)
