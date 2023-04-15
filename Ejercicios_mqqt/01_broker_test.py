@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
 
 from paho.mqtt.client import Client
 
 def on_message(mqttc, userdata, msg):
     print("MESSAGE:", userdata, msg.topic, msg.qos, msg.payload, msg.retain)
-    mqttc.publish('clients/test', msg.payload)
-
+    if msg.topic != "clients/test":
+        mqttc.publish('clients/test', msg.payload)
 
 def main(broker, topic):
     mqttc = Client()
