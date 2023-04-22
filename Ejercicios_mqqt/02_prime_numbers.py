@@ -1,10 +1,22 @@
-
+import random
 from paho.mqtt.client import Client
 
 def on_message(mqttc, userdata, msg):
     print("MESSAGE:", userdata, msg.topic, msg.qos, msg.payload, msg.retain)
-    if msg.topic != "clients/test":
-        mqttc.publish('clients/test', msg.payload)
+    num = float(msg.payload)
+    if num.is_integer() and is_prime(int(num)):
+        print(f"{num} is prime")
+    else:
+        print(f"{num} is not prime")
+
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**(1/2))+1):
+        if n % i == 0:
+            return False
+    return True
 
 def main(broker, topic):
     mqttc = Client()
@@ -14,7 +26,6 @@ def main(broker, topic):
 
     mqttc.subscribe(topic)
     mqttc.loop_forever()
-
 
 if __name__ == "__main__":
     import sys
